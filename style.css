@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
+@media (max-width: 600px) {
+    .links-card {
+        padding: 50px 30px;
+    }
+
+    .links-card h1 {
+        font-size: 28px;
+    }
+
+    .bio {
+        font-size: 20px;
+    }
+
+    .links a {
+        font-size: 19px;
+        padding: 18px;
+    }
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
